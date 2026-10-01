@@ -1,0 +1,28 @@
+✔ Settings defaults, explicit values and validation (1.462001ms)
+✔ Camera device parser accepts single/multiple rows without claiming tether availability (0.377578ms)
+✔ Vendor guide links are fixed HTTPS destinations (0.294986ms)
+✔ Copy preserves original, content and modification time (14.80958ms)
+✔ Move and undo restore original location (14.72835ms)
+✔ Never overwrite an existing destination (3.509207ms)
+✔ Concurrent destination collision permits only one transfer (7.946125ms)
+✔ Undo refuses modified destination (3.845795ms)
+✔ Undo refuses occupied original path (8.054921ms)
+✔ Reject same source, missing source, symlink source (1.756957ms)
+✔ Scan ignores links, distinguishes RAW and videos, respects recursion (8.97392ms)
+✔ Windows invalid names and traversal rejected (0.901994ms)
+✔ CSV escapes quotes, commas, formulas and preserves Unicode (0.356477ms)
+✔ Only publish new file after stable interval; no duplicate delivery (0.98115ms)
+✔ Growing file restarts wait, zero bytes never published (0.23648ms)
+✔ Overwrite detected, deletion repeatable until consumer commits, reseed clears old folder (0.799491ms)
+✔ Burst handles every file independently (0.2912ms)
+✔ Student numbering preserves Vietnamese and rejects unsafe names (1.236148ms)
+✔ Actual partially written JPEG rejected until end marker; folder/temp rename discovered (28.399923ms)
+✔ Main IPC integration: live arrival, automatic student rename, numbering, no rename loop, folders (43.285991ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 141.779413

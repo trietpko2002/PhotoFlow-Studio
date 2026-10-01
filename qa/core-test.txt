@@ -1,0 +1,18 @@
+✔ Copy preserves original, content and modification time (13.178854ms)
+✔ Move and undo restore original location (6.209574ms)
+✔ Never overwrite an existing destination (2.91799ms)
+✔ Concurrent destination collision permits only one transfer (6.574029ms)
+✔ Undo refuses modified destination (3.79992ms)
+✔ Undo refuses occupied original path (3.979942ms)
+✔ Reject same source, missing source, symlink source (1.876259ms)
+✔ Scan ignores links, distinguishes RAW and videos, respects recursion (9.923595ms)
+✔ Windows invalid names and traversal rejected (0.684983ms)
+✔ CSV escapes quotes, commas, formulas and preserves Unicode (0.257248ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 129.236326

@@ -1,0 +1,1 @@
+PASS: import 75 files, 60/15 pagination, pick/filter, multi-select, comparison, search, theme. DOM test with mock IPC; not native Electron/Windows.

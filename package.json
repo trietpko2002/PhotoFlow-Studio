@@ -1,0 +1,45 @@
+{
+  "name": "photoflow-studio",
+  "version": "5.2.0",
+  "description": "Lọc ảnh và video miễn phí cho studio",
+  "main": "src/main.cjs",
+  "author": "Triết Võ",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test",
+    "dist:win": "electron-builder --win --x64"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "vn.triet.photoflow",
+    "productName": "PhotoFlow Studio",
+    "files": [
+      "src/**/*",
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md",
+      "ORIGINAL-LICENSE.txt"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "PhotoFlow-${version}-${arch}-Setup.${ext}"
+    },
+    "portable": {
+      "artifactName": "PhotoFlow-${version}-${arch}-Portable.${ext}"
+    }
+  }
+}

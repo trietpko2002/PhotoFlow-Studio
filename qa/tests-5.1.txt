@@ -1,0 +1,25 @@
+✔ Copy preserves original, content and modification time (11.684856ms)
+✔ Move and undo restore original location (5.176566ms)
+✔ Never overwrite an existing destination (2.39362ms)
+✔ Concurrent destination collision permits only one transfer (3.958048ms)
+✔ Undo refuses modified destination (3.26563ms)
+✔ Undo refuses occupied original path (7.303689ms)
+✔ Reject same source, missing source, symlink source (1.427393ms)
+✔ Scan ignores links, distinguishes RAW and videos, respects recursion (9.120725ms)
+✔ Windows invalid names and traversal rejected (0.611122ms)
+✔ CSV escapes quotes, commas, formulas and preserves Unicode (0.290829ms)
+✔ Only publish new file after stable interval; no duplicate delivery (1.123615ms)
+✔ Growing file restarts wait, zero bytes never published (0.194043ms)
+✔ Overwrite detected, deletion repeatable until consumer commits, reseed clears old folder (0.910944ms)
+✔ Burst handles every file independently (0.373153ms)
+✔ Student numbering preserves Vietnamese and rejects unsafe names (0.719014ms)
+✔ Actual partially written JPEG rejected until end marker; folder/temp rename discovered (18.864793ms)
+✔ Main IPC integration: live arrival, automatic student rename, numbering, no rename loop, folders (21.400613ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.033989
