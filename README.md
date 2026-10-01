@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://photoflowstudio.pages.dev/logo.ico)" width="110" alt="PhotoFlow Studio Logo">
+<img src="(https://github.com/trietpko2002/PhotoFlow-Studio/blob/main/logo.ico)" width="110" alt="PhotoFlow Studio Logo">
 
 # 📸 PhotoFlow Studio 6.0
 ## THE BIGGEST UPDATE EVER
